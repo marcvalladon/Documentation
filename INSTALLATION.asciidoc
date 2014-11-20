@@ -18,9 +18,9 @@ DeveryMonitor Installation et Configuration
 == Présentation
 Ce document à pour but de définir l'installation et la configuration de DeveryMonitor.
 
-.Différentes parties du projet
-image::deverymonitorparts.png["center"]
 *DeveryMonitor se compose de quatre parties principales à installer :* 
+
+image::deverymonitorparts.png["center"]
 
 . Une base de donnée MongoDB
 . Une partie backend "Logic" intégrant les algorithmes, le webservice REST , le DAO et le DAOImpl. Cette partie inclue les packages suivants :
