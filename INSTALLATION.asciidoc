@@ -66,7 +66,7 @@ image::deverymonitorparts.png["center"]
 ----
 mvn clean install
 ----
-* Vous devez obtenir les fichier suivants nécessaires à l'installation de deverymonitor :
+* Vous devez obtenir les fichiers suivants nécessaires à l'installation de deverymonitor :
 
 - *_deverymonitor-logic.war_*
 - *_deverymonitor-logic.properties_*
@@ -84,7 +84,7 @@ mvn clean install
 
 // Pas besoin d'installation
 Une installation de la base MongoDB 2.6.4 est nécessaire.
-La base MongoDB est contrôlée via les drivers mongoDB Java (Cf DAOImpl). Les drivers MongoDB génère la base de données et les collections si elles n'existent pas .
+La base MongoDB est contrôlée via les drivers mongoDB Java (Cf DAOImpl). Ces drivers génère la base de données et les collections si celles-ci n'existent pas .
 Les indexes sont assurés par les drivers MongoDB Java(Cf DAOImpl).
 
 Le nom de la base de données et le nom des collections et défini dans le fichier de propriété _deverymonitor-logic.properties_.
