@@ -177,7 +177,7 @@ NOTE: Vous devrez redémarrer TOMCAT pour chaque modification de configuration
 Au niveau du développement de deveryMonitor
 
 === Configuration
-Pour configurer le GUI, éditez le fichier *_deverymonitor-ia.properties_*. 
+Pour configurer le GUI, éditez le fichier *_deverymonitor-ia.properties_*.
 Vous pourrez configurer les éléments ci-dessous :
 [source, php]
 ----
@@ -204,4 +204,5 @@ username=deverymonitor
 password=deveryware
 ----
 ^_deverymonitor-ia.properties_^
+
 NOTE: Vous devrez redémarrer TOMCAT pour chaque modification de configuration
