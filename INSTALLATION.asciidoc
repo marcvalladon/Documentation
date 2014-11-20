@@ -73,6 +73,7 @@ mvn clean install
 - *_deverymonitor-gui.war_*
 - *_deverymonitor-gui.properties_*
 - *_deverymonitor-ia.war_*
+- *_deverymonitor-ia.properties_*
 
 ****
 
@@ -176,4 +177,31 @@ NOTE: Vous devrez redémarrer TOMCAT pour chaque modification de configuration
 Au niveau du développement de deveryMonitor
 
 === Configuration
-En cours...
+Pour configurer le GUI, éditez le fichier *_deverymonitor-ia.properties_*. 
+Vous pourrez configurer les éléments ci-dessous :
+[source, php]
+----
+# Configuration file for Deverymonitor-ia = connexion to Graphite.
+# IMPORTANT : restart service on TOMCAT when you change properties.
+# This file has to be located in you 'home' (~/) directory.
+
+# IP address of the Webservice graphite
+Graphite.URL=95.142.171.35
+
+# Ia module refreshing rate (second)
+IaModule.RefreshRate=60
+
+# This is the Timezone used to create new documents (service status)
+timezone=CET
+
+#YAML file path
+yaml.path=/home/erwang/Desktop/graphite6.yaml
+
+# IP address of the MongoDb server
+address=183.91.23.83
+port=27017
+username=deverymonitor
+password=deveryware
+----
+^_deverymonitor-ia.properties_^
+NOTE: Vous devrez redémarrer TOMCAT pour chaque modification de configuration
