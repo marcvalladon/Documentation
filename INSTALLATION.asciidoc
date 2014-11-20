@@ -31,12 +31,10 @@ image::deverymonitorparts.png["center"]
 . Une partie interface utilisateur (WEB application). Cette partie inclue les packages suivants :
 * deverymonitor-gui
 * deverymonitor-common
-. Une interface "IA" permettant de fournir les données à la base MongoDB à partir de Graphite.
-* A définir
-
-
-
-
+. Une interface "IA" permettant de fournir les données à la base MongoDB à partir de Graphite.Cette partie inclue les packages suivants :
+* deverymonitor-ia
+* deverymonitor-dao
+* deverymonitor-dao-impl
 
 == Sommaire
 
