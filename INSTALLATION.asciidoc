@@ -61,13 +61,11 @@ image::deverymonitorparts.png["center"]
 ****
 .Compilation 
 ****
-Télécharger les sources
-
-Compilez les sources avec MAVEN
+* Télécharger les sources
+* Compilez les sources avec MAVEN
 ----
 mvn clean install
 ----
-
 Vous devez obtenir les fichier suivants nécessaires à l'installation de deverymonitor :
 
 - *_deverymonitor-logic.war_*
