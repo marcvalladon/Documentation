@@ -141,7 +141,6 @@ L'installation du GUI se fait :
 === Configuration
 Pour configurer le GUI, éditez le fichier *_deverymonitor-gui.properties_*. Vous pourrez configurer les éléments relatifs aux Web-services REST comme affiché ci-dessous :
 
-
 [source, php]
 ----
 
@@ -174,11 +173,22 @@ NOTE: Vous devrez redémarrer TOMCAT pour chaque modification de configuration
 [[anchor-5]]
 == Installation et configuration de IA
 === Installation
-Au niveau du développement de deveryMonitor
+
+De la même manière que pour les parties précédentes, l'installation de IA se fait :
+
+- En déployant le fichier *_deverymonitor-ia.war_* sur le votre serveur TOMCAT
+- En déployant le fichier *_deverymonitor-ia.properties_* dans le répertoire "home" (~/) de la session hébergeant le serveur TOMCAT.
 
 === Configuration
 Pour configurer le GUI, éditez le fichier *_deverymonitor-ia.properties_*.
 Vous pourrez configurer les éléments ci-dessous :
+
+* L'accès à graphite
+* L'accès à MongoDB
+* L'accès au fichier yaml permettant la création de l'arbre de décision de l'état des services.
+* La periode de rafraichissement de l'évalution de l'état des services.
+* La timezone pour l'enregistrement des documents dans MongoDB.
+
 [source, php]
 ----
 # Configuration file for Deverymonitor-ia = connexion to Graphite.
